@@ -17,7 +17,7 @@ nav{
 
 
 #title{
-    font-family: "playlist script";
+    font-family: 'Rochester', cursive;
     font-size: 40px;
     float: left;
 }
@@ -290,7 +290,7 @@ h1{
 
 #TPhotos{
     position: absolute;
-    font-family: "playlist script";
+    font-family: 'Rochester', cursive;
     color: black;
     text-shadow: 2px 2px white;
     font-size: 100px;
@@ -299,7 +299,7 @@ h1{
 }
 .TPB{
     position: absolute;
-    font-family: "playlist script";
+    font-family: 'Rochester', cursive;
     color: black;
     text-shadow: 2px 2px white;
     font-size: 100px;
@@ -308,7 +308,7 @@ h1{
 }
 .TPB2{
     position: absolute;
-    font-family: "playlist script";
+    font-family: 'Rochester', cursive;
     color: black;
     text-shadow: 2px 2px white;
     font-size: 100px;
@@ -317,7 +317,7 @@ h1{
 }
 #TVideo{
     position: absolute;
-    font-family: "playlist script";
+    font-family: 'Rochester', cursive;
     color: black;
     text-shadow: 2px 2px white;
     font-size: 100px;
@@ -326,7 +326,7 @@ h1{
 }
 #TVideo2{
     position: absolute;
-    font-family: "playlist script";
+    font-family: 'Rochester', cursive;
     color: black;
     text-shadow: 2px 2px white;
     font-size: 100px;
@@ -360,7 +360,7 @@ h1{
 
 #Tutor2{
     position: absolute;
-    font-family: "playlist script";
+    font-family: 'Rochester', cursive;
     color: black;
     text-shadow: 2px 2px white;
     font-size: 100px;
