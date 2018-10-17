@@ -8,9 +8,10 @@ nav{
     position: fixed;
     width: 99.6%;
 }
-#spacer{
-    background-color: white;
-    width: 300px;
+
+#centering{
+    display: flex;
+    justify-content: center;
 }
 
 
