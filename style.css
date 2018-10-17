@@ -1,3 +1,10 @@
+@font-face {
+  font-family: "playlist script";
+  font-style: normal;
+  src: url("Playlist%Script.otf");
+  font-display: swap;
+}
+
 #tinylogo{
     position: absolute;
     top: 25px;
