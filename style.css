@@ -42,7 +42,7 @@ nav{
     text-decoration: none;
     padding: 10px 50px;
     color: black;
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-size: 25px;
 }
 
@@ -71,7 +71,7 @@ nav{
 
 .text1 {
   color: white;
-    font-family: "roboto";
+   font-family: 'Roboto', sans-serif;
     background-color: #E93575;
     font-size: 15px;
     position: absolute;
@@ -84,7 +84,7 @@ nav{
 
 .text2 {
   color: white;
-    font-family: "roboto";
+    font-family: 'Roboto', sans-serif;
     background-color: #F49470;
     font-size: 15px;
     position: absolute;
@@ -101,7 +101,7 @@ nav{
 
 .text3 {
   color: black;
-    font-family: "roboto";
+    font-family: 'Roboto', sans-serif;
     background-color: #FFF56B;
     font-size: 15px;
     position: absolute;
@@ -212,7 +212,7 @@ nav{
     padding-top: 120px;
 }
 #aboutme{
-    font-family: "roboto";
+    font-family: 'Roboto', sans-serif;
     padding-top: 20px;
     padding-left: 150px;
     padding-right: 150px;
@@ -220,7 +220,7 @@ nav{
 
 /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
-    font-family: "roboto";
+    font-family: 'Roboto', sans-serif;
     width: 100%; 
     padding: 12px;   
     border: 1px solid #ccc; 
@@ -233,7 +233,7 @@ input[type=text], select, textarea {
 
 /* Style the submit button with a specific background color etc */
 input[type=submit] {
-    font-family: "roboto";
+    font-family: 'Roboto', sans-serif;
     background-color: #EB4974;
     color: white;
     padding: 12px 20px;
@@ -249,7 +249,7 @@ input[type=submit]:hover {
 
 /* Add a background color and some padding around the form */
 .form {
-    font-family: "roboto";
+    font-family: 'Roboto', sans-serif;
     display: flex;
     justify-content: center;
     width: 50%;
