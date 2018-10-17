@@ -8,6 +8,9 @@ nav{
     position: fixed;
     width: 99.6%;
 }
+#spacer{
+    width: 300px;
+}
 
 
 #title{
