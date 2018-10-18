@@ -206,6 +206,7 @@ nav{
     padding-top: 120px;
 }
 #aboutme{
+    position: absolute;
     font-family: 'Roboto', sans-serif;
     padding-top: 20px;
     padding-left: 150px;
