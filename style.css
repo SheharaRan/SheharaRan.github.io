@@ -261,6 +261,7 @@ input[type=submit]:hover {
 
 }
 h1{
+    position:absolute;
     top: 90px;
     left: 540px;
     color: black;
