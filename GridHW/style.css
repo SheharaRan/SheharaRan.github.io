@@ -1,0 +1,45 @@
+.item1{
+    grid-area: picone;
+}
+.item2{
+    grid-area: pictwo;
+}
+
+.item3{
+    grid-area: picthree;
+}
+
+.item4{
+    grid-area: picfour;
+}
+.item5{
+    grid-area: picfive;
+}
+.item6{
+    grid-area: picsix;
+}
+.item7{
+    grid-area: picseven;
+}
+.item8{
+    grid-area: piceight;
+}
+.item9{
+    grid-area: picnine;
+}
+
+h1{
+    font-family: 'roboto';
+}
+
+
+
+.grid-container{ 
+  display: grid;
+  grid-gap: 5px;
+  padding: 5px;
+  grid-template-areas: 
+      'picone pictwo picthree'
+      'picfour picfive picsix'
+      'picseven piceight picnine';  
+}
