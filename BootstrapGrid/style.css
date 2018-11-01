@@ -4,3 +4,9 @@
 h1{
     font-family: "roboto";
 }
+.container{
+    align-content: center;
+}
+.col{
+    padding-left: 38px;
+}
