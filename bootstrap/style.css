@@ -1,0 +1,30 @@
+.header{
+    background-color: #FEE469;
+    color: yellow;
+}
+.my-navbar {
+    background-color: black;
+    color:  #FEE469;
+}
+
+.nav-link{
+    color:  #FEE469;
+}
+
+.nav-link:hover{
+    color: white;
+}
+
+.btn{
+    color:  #FEE469;
+    border-color: #FEE469;
+}
+
+.btn:hover{
+    color:  black;
+    background-color: #FEE469;
+}
+
+.btn-primary{
+    background-color: black;
+}
