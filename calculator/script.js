@@ -36,7 +36,7 @@ PNum.addEventListener("click", percentOf);
 function percentOf(){
     var pnum1 = document.getElementById('percent1-input').value;
     var pnum2 = document.getElementById('percent2-input').value;
-    var percentnum = pnum1 / pnum2 * 100;
+    var percentnum = (pnum1 / pnum2 * 100).toFixed(2);
     
     var solutionDiv = document.getElementById("solution");
     solutionDiv.innerHTML = pnum1 + " is " + percentnum +"% of " + pnum2;
