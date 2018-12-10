@@ -1,7 +1,6 @@
 #logo{
     z-index: 10;
-    margin-left: 15%;
-    padding-left: 300px;
+    margin-left: 10%;
     margin-top: 20px;
 }
 
@@ -49,7 +48,6 @@
 #socials{
     display: flex;
     flex-direction: row;
-    padding-left: 50px;
     padding-top: 70px;
     z-index: 10;
 }
