@@ -1,6 +1,6 @@
 #logo{
     z-index: 10;
-    margin-left: 15%;
+    margin-left: 40%;
     margin-top: 20px;
 }
 
@@ -170,7 +170,7 @@
     margin-left: 150px;
 }
 #ASIBTracks {
-  margin-left: 80px;
+  margin-left: 200px;
   overflow: auto;
   width:600px;
   height: 450px; 
@@ -188,7 +188,7 @@
 }
 
 #JoanneTracks {
-  margin-left: 80px;
+  margin-left: 200px;
   overflow: auto;
   width:600px;
   height: 450px; 
@@ -207,7 +207,7 @@
 
 
 #CTCTracks {
-  margin-left: 80px;
+  margin-left: 200px;
   overflow: auto;
   width:600px;
   height: 450px; 
@@ -225,7 +225,7 @@
 }
 
 #ArtPopTracks {
-  margin-left: 80px;
+  margin-left: 200px;
   overflow: auto;
   width:600px;
   height: 450px; 
@@ -242,7 +242,7 @@
     -webkit-text-fill-color: blue;
 }
 #BTWTracks {
-  margin-left: 80px;
+  margin-left: 200px;
   overflow: auto;
   width:600px;
   height: 450px; 
@@ -259,7 +259,7 @@
   -webkit-text-fill-color: red;
 }
 #TFMTracks {
-  margin-left: 80px;
+  margin-left: 200px;
   overflow: auto;
   width:600px;
   height: 450px; 
@@ -277,7 +277,7 @@
 }
 
 #FameTracks {
-  margin-left: 80px;
+  margin-left: 200px;
   overflow: auto;
   width:600px;
   height: 450px; 
@@ -305,8 +305,8 @@
   bottom: 0;
   left: 0;
   right: 0;
-  height: 450px;
-  width: 450px;
+  height: 550px;
+  width: 550px;
   opacity: 0;
   transition: .5s ease;
   background-color: white;
