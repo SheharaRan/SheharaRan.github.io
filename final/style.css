@@ -1,6 +1,6 @@
 #logo{
     z-index: 10;
-    margin-left: 40%;
+    margin-left: 50%;
     margin-top: 20px;
 }
 
@@ -47,6 +47,7 @@
 }
 #socials{
     display: flex;
+    margin-left: 10%;
     flex-direction: row;
     padding-top: 70px;
     z-index: 10;
