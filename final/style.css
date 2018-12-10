@@ -1,0 +1,423 @@
+#logo{
+    z-index: 10;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 300px;
+    margin-top: 20px;
+}
+
+#header{
+    display:inline-flex;
+
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    color: white;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+    color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+    color: white;
+}
+
+.fa-instagram {
+    color: white
+}
+
+.fa-youtube {
+    color: white;
+}
+
+.fa {
+  padding: 15px;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+  margin: 10px;
+  text-shadow: 1px 1px black;
+}
+#socials{
+    display: flex;
+    flex-direction: row;
+    padding-left: 180px;
+    padding-top: 70px;
+    z-index: 10;
+}
+
+.navbar-nav{
+    display:inline-flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 12.5%;
+    margin-top: 30%;
+}
+#navbartop{
+    display: flex;
+    padding-top: 5px;
+}
+
+#bg {
+  position: fixed;
+  z-index: -4;
+  top: 65px;
+  right: 50px;
+  bottom: 0;
+  left:50px;
+  transition: .25s;
+  pointer-events: none;
+  background-image: url(images/gaga.jpg);
+  background-size: cover;
+}
+
+
+.navbar-nav #music:hover ~ #bg {
+  transition: .25s;
+  background-image: url(images/joannefirst.jpg);
+  background-size: cover;
+  
+}
+.navbar-nav #film:hover ~ #bg {
+  transition: .25s;
+  background-image: url(images/as.jpg);
+  background-size: cover;
+}
+
+.navbar-nav #shop:hover ~ #bg {
+  transition: .25s;
+  background-image: url(images/shop.jpg);
+  background-size: cover;
+}
+
+.nav-link{
+    color:  white;
+    text-shadow: 1px 1px black;
+    z-index: 12;
+    
+}
+
+.otherpg{
+    color:  black;
+    text-shadow: 1px 1px white;
+}
+
+.nav-link:hover{
+    color: white;
+}
+
+#inside{
+    /*position: absolute;
+    z-index: 1;
+    margin-top: -40px;
+     -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    position: absolute;
+    width: auto;
+    overflow: hidden;*/
+    z-index: 1;
+    margin-top: -40px;    
+    position: absolute;
+    width: auto;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+#inside2{
+    /*position: absolute;
+    z-index: 1;
+    margin-top: -40px;
+     -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    position: absolute;
+    width: auto;
+    overflow: hidden;*/
+    z-index: 1;
+    margin-top: -40px;    
+    position: absolute;
+    width: auto;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+#albumcovers{
+    overflow: hidden;
+}
+#merch{
+    overflow: hidden;
+}
+.zoom:hover {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+
+#containerm{
+    display: inline-flex;
+    margin-top: -40px;
+}
+
+#albumpage{
+    margin-left: 150px;
+}
+#ASIBTracks {
+  margin-left: 80px;
+  overflow: auto;
+  width:600px;
+  height: 450px; 
+  font-size: 40px;
+  font-weight: 900;
+  color: #CD941A;
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #CD941A;
+  text-transform: uppercase;
+  text-align: center;
+}
+#ASIBPlay {
+   -webkit-text-fill-color: #CD941A;
+}
+
+#JoanneTracks {
+  margin-left: 80px;
+  overflow: auto;
+  width:600px;
+  height: 450px; 
+  font-size: 40px;
+  font-weight: 900;
+  color: pink;
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: pink;
+  text-transform: uppercase;
+  text-align: center;
+}
+#JoannePlay {
+  -webkit-text-fill-color: pink;
+}
+
+
+#CTCTracks {
+  margin-left: 80px;
+  overflow: auto;
+  width:600px;
+  height: 450px; 
+  font-size: 40px;
+  font-weight: 900;
+  color: tan;
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: tan;
+  text-transform: uppercase;
+  text-align: center;
+}
+#CTCPlay {
+  -webkit-text-fill-color: tan;
+}
+
+#ArtPopTracks {
+  margin-left: 80px;
+  overflow: auto;
+  width:600px;
+  height: 450px; 
+  font-size: 40px;
+  font-weight: 900;
+  color: blue;
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: blue;
+  text-transform: uppercase;
+  text-align: center;
+}
+#APPlay{
+    -webkit-text-fill-color: blue;
+}
+#BTWTracks {
+  margin-left: 80px;
+  overflow: auto;
+  width:600px;
+  height: 450px; 
+  font-size: 40px;
+  font-weight: 900;
+  color: red;
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: red;
+  text-transform: uppercase;
+  text-align: center;
+}
+#BTWPlay{
+  -webkit-text-fill-color: red;
+}
+#TFMTracks {
+  margin-left: 80px;
+  overflow: auto;
+  width:600px;
+  height: 450px; 
+  font-size: 40px;
+  font-weight: 900;
+  color: black;
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  text-transform: uppercase;
+  text-align: center;
+}
+#TFMPlay{
+    -webkit-text-fill-color: black;
+}
+
+#FameTracks {
+  margin-left: 80px;
+  overflow: auto;
+  width:600px;
+  height: 450px; 
+  font-size: 40px;
+  font-weight: 900;
+  color: red;
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: red;
+  text-transform: uppercase;
+  text-align: center;
+}
+#TFPlay{
+     -webkit-text-fill-color: red;
+}
+
+
+
+
+
+
+.overlay{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 450px;
+  width: 450px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: white;
+}
+#merch1{
+  margin-left: 450px;
+        
+
+}
+#merch2{
+  margin-left: 910px;
+}
+
+#merch3{
+  margin-left: 1360px;
+}
+#merch4{
+  margin-left: 1810px;
+}
+#merch5{
+  margin-left: 2270px;
+}
+#merch6{
+  margin-left: 2730px;
+}
+#merch7{
+  margin-left: 3180px;
+}
+#merch8{
+  margin-left: 3640px;
+}
+#merch9{
+  margin-left: 4090px;
+}
+#merch10{
+  margin-left: 4540px;
+}
+#merch11{
+  margin-left: 4990px;
+}
+#merch12{
+  margin-left: 5440px;
+}
+#merch13{
+  margin-left: 5900px;
+}
+
+
+
+.overlay:hover{
+    opacity: 0.5;
+    
+}
+
+.videocontainer {
+        background: white;
+        position: relative;
+        top: 0; right: 0; bottom: -100px; left: 0;
+        z-index: -99;
+        padding-bottom: 480px;
+        height: 0;
+        margin-top: -140px;
+}
+iframe {
+        display: inline-flex;
+        position: absolute;
+        display: block;
+        width: 50%;
+        height: 80%;
+        z-index: -10;
+}
+#video2{
+    margin-left: 50%;
+    background: white;
+    margin-top: 60px;
+    height: 62%;
+}
+#video1{
+    margin-top: -40px;
+    height: 62%;
+    background: white;
+    
+}
+
+
+
+.text {
+  -webkit-text-fill-color: black;
+   text-transform: uppercase;
+  font-weight: 900;
+  color: black;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+
+#pic {
+    margin-top: -40px;
+    position: absolute;
+    z-index: -3;
+}
+#pic2 {
+    margin-left: 50%;
+    margin-top: 60px;
+    position: absolute;
+    z-index: -3;
+}
