@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Jukebox</title>
+	<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <center><h1 id = "title">Jukebox</h1></center>
+	<center><div><img id="album_cover" src = "https://images.genius.com/9b3577380616e434444df78c3ee23272.1000x1000x1.jpg" heigh = 300px width = 300px></div></center>
+	<br>
+	<center><button  onclick = "Rewind()" >
+		<i class="fa fa-step-backward" aria-hidden="true"></i>
+	</button>
+	<button id = "play_button">
+		<i class="fa fa-play" aria-hidden="true"></i>
+		<audio id="play_audio">
+			<source id="song" src="" type="audio/mpeg">
+		</audio>
+	</button>
+	<button onclick = "Pause()">
+		<i class="fa fa-pause" aria-hidden="true"></i>
+	</button>
+	<button onclick = "FF()">
+		<i class="fa fa-step-forward" aria-hidden="true"></i>
+        </button></center>
+    
+    
+    
+    <center><h2>Playlist: </h2></center>
+    <center><h2 id = "s1"> </h2></center>
+    <center><h2 id = "s2"> </h2></center>
+    <center><h2 id = "s3"> </h2></center>
+    <center><h2 id = "s4"> </h2></center>
+    <center><h2 id = "s5"> </h2></center>
+    
+
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
